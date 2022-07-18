@@ -15,7 +15,8 @@ Voir les autres thèmes de base :
 Directement via github
 
 Via CLI
-`wget https://github.com/cladjidane/Divi-Koality/archive/refs/heads/main.zip ; unzip main.zip ; rm main.zip`
+
+```wget https://github.com/cladjidane/Divi-Koality/archive/refs/heads/main.zip ; unzip main.zip ; rm main.zip```
 
 
 ## Modifications à faire :
