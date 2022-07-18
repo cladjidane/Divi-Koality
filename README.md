@@ -10,6 +10,14 @@ Voir les autres thèmes de base :
 
 ***
 
+## Téléchargement
+
+Directement via github
+
+Via CLI
+`wget https://github.com/cladjidane/Divi-Koality/archive/refs/heads/main.zip ; unzip main.zip ; rm main.zip`
+
+
 ## Modifications à faire :
 
 * Changer le nom du dossier (supprimer - main)
