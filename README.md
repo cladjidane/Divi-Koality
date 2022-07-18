@@ -5,8 +5,8 @@ Thème enfant de Divi by Koality!
 ***Ce thème est une base minimal***
 
 Voir les autres thèmes de base :
-* Avec Tailwind
-* Avec Gulp
+* Avec Tailwind (***TODO***)
+* Avec Gulp (***TODO***)
 
 ***
 
