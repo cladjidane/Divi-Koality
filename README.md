@@ -18,6 +18,34 @@ Via CLI
 
 ```wget https://github.com/cladjidane/Divi-Koality/archive/refs/heads/main.zip ; unzip main.zip ; rm main.zip```
 
+## Installation de Tailwind
+
+Sous plesk, executer npm via : 
+```export PATH=$PATH:/opt/plesk/node/20/bin/```
+(J'aimerais résoudre ce probleme sou sPLESK !!)
+
+Puis executer pour initilaiser le package.json :
+```npm init```
+
+Installer ensuite Tailwind : 
+```npm install -D tailwindcss```
+
+Initialiser tailwindcss :
+```npx tailwindcss init``` 
+
+Spécifier les fichiers à surveiller :
+```
+module.exports = {
+  content: ["./**/*.php"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+``` 
+
+Puis lancer le watcher pour surveiller les modifications sur les fichiers
+```npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch```
 
 ## Modifications à faire :
 
